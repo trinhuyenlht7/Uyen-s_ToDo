@@ -1,0 +1,92 @@
+.container {
+  text-align: center;
+}
+
+.title {
+  color: #03dac6;
+  font-size: 50px;
+  padding: 20px 0;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* Styles for the todo-list container */
+.todo-list {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Style for each individual todo item */
+.todo-list > div {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the task name */
+.todo-list div div {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Style for the delete button */
+.todo-list button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for delete button */
+.todo-list button:hover {
+  background-color: #ff1a1a;
+}
+
+/*Edit note-image*/
+.note-image {
+  width: 300px;
+}
